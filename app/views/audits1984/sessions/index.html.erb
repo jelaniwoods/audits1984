@@ -3,6 +3,6 @@
 
 <turbo-frame id="sessions">
   <div class="sessions">
-    <%= render partial: "audits1984/sessions/session", collection: @sessions, cached: true %>
+    <%= render partial: "audits1984/sessions/session", collection: @sessions, cached: Audits1984.cache_session_views %>
   </div>
 </turbo-frame>
